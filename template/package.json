@@ -1,0 +1,20 @@
+{
+  "name": "{{name}}",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "webpack-dev-server --open --hot --mode development",
+    "build": "webpack --progress --hide-modules --mode production"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.3.0",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "angular": "^1.6.9",
+    "bootstrap-css-only": "^4.0.0"
+  }
+}
